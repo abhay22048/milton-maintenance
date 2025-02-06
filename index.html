@@ -3,192 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maintenance</title>
-    <style>
-        /* Page Background Image */
-        /* Font style similar to the image */
-        .header h2 {
-            font-family: 'Arial Black', sans-serif;
-            font-size: 48px;
-            text-align: center;
-            text-transform: uppercase;
-            letter-spacing: 5px;
-            color: black;
-            margin: 0;
-        }
-
-        .header p {
-            font-family: 'Arial', sans-serif;
-            font-size: 24px;
-            text-align: center;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            color: black;
-        }
-
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            overflow: hidden;
-            position: relative;
-            background-color: rgb(230, 230, 204); /* Replace with your image URL */
-            background-size: cover;
-            background-position: center;
-        }
-
-        /* Container for the message */
-        .message-box {
-            background-color: rgba(255, 255, 255, 0.8);
-            color: #333;
-            border-radius: 10px;
-            padding: 30px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            animation: fadeIn 2s ease-in-out;
-            text-align: center;
-            margin-bottom: 30px;
-            width: 80%;
-            max-width: 600px;
-        }
-
-        /* Animation for Message Box */
-        @keyframes fadeIn {
-            0% { opacity: 0; transform: translateY(-20px); }
-            100% { opacity: 1; transform: translateY(0); }
-        }
-
-        h1 {
-            font-size: 28px;
-            margin-bottom: 20px;
-        }
-
-        p {
-            font-size: 18px;
-            margin-bottom: 30px;
-        }
-
-        /* Button Container */
-        .button-container {
-            display: flex;
-            justify-content: center;
-            gap: 20px; /* Adds space between the buttons */
-            flex-wrap: wrap; /* Makes the buttons stack on small screens */
-            margin-top: 20px;
-        }
-
-        /* Button Style */
-        .btn {
-            background-color: #f08a5d;
-            color: white;
-            padding: 18px 36px;
-            font-size: 22px;
-            border: none;
-            border-radius: 50px;
-            cursor: pointer;
-            text-align: center;
-            text-transform: uppercase;
-            transition: all 0.3s ease;
-            min-width: 200px; /* Ensures buttons have a consistent width */
-        }
-
-        .btn:hover {
-            background-color: #d77c4e;
-            transform: translateY(-5px);
-        }
-
-        .btn:active {
-            transform: translateY(2px);
-        }
-
-        /* Link styling for buttons */
-        a {
-            text-decoration: none;
-        }
-
-        /* Responsive Design */
-        @media screen and (max-width: 768px) {
-            .header h2 {
-                font-size: 36px;
-            }
-
-            .header p {
-                font-size: 20px;
-            }
-
-            h1 {
-                font-size: 24px;
-            }
-
-            p {
-                font-size: 16px;
-            }
-
-            .message-box {
-                padding: 20px;
-                width: 90%;
-                max-width: 500px;
-            }
-
-            .btn {
-                padding: 15px 30px;
-                font-size: 18px;
-                min-width: 160px;
-            }
-        }
-
-        @media screen and (max-width: 480px) {
-            .header h2 {
-                font-size: 28px;
-            }
-
-            .header p {
-                font-size: 18px;
-            }
-
-            h1 {
-                font-size: 22px;
-            }
-
-            p {
-                font-size: 14px;
-            }
-
-            .message-box {
-                padding: 15px;
-                width: 90%;
-                max-width: 400px;
-            }
-
-            .btn {
-                padding: 12px 24px;
-                font-size: 16px;
-                min-width: 140px;
-            }
-        }
-    </style>
+    <title>La Dolce Vita - Maintenance</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Message Box -->
+    <!-- Header -->
     <div class="header">
-        <h2>LA DOLCE VITA</h2>
+        <h2>LA - DOLCE - VITA</h2>
         <p>Brisbane</p>
     </div>
     
+    <!-- Message Box -->
     <div class="message-box">
-        <h1>Our Website is currently under maintenance.</h1>
-        <p><b>We're making some updates to enhance your dining experience. Please check back later.</b></p>
+        <h1>We're Cooking Up Something Special! </h1>
+        <p><b>Our new website is currently undergoing maintenance as we bring you an even better dining and booking experience.</b></p>
+        <p><b>Check back soon, Ciao!</b></p>
     </div>
     
-    <!-- Button Container with Side by Side Buttons -->
+    <!-- Button Container -->
     <div class="button-container">
         <a href="https://www.statordernow.com/ordering/restaurant/menu?restaurant_uid=cc65e15d-c53c-4785-927a-87550b72c42d&glfa_cid=523185981.1593959968&glfa_t=1595162760370" target="_blank">
-            <button class="btn">Order online Milton</button>
+            <button class="btn">Order Online Milton</button>
         </a>
         <a href="https://tableagent.com/brisbane/la-dolce-vita/" target="_blank">
             <button class="btn">Book Table Milton</button>
