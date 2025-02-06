@@ -166,3 +166,30 @@ p {
         min-width: 140px;
     }
 }
+@media screen and (max-width: 1024px) {
+     .header h2 {
+        font-size: 36px;
+    }
+    .header p {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .message-box {
+        padding: 15px;
+        max-width: 400px;
+    }
+
+    .btn {
+        padding: 12px 24px;
+        font-size: 16px;
+        min-width: 140px;
+    }
+}
